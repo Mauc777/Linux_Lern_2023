@@ -1,0 +1,457 @@
+Часть1
+Образы для Docker -  hub.docker.com
+  429  apt install docker.io
+  430  sudo docker
+
+
+  433  docker run hello-world
+
+  435  docker ps
+  436  docker ps -a
+
+  440  docker images
+  441  docker search nginx
+
+  443  docker ps -a
+  444  docker rm hello-world
+
+  446  docker ps -a
+  447  docker images
+
+  452  docker pull nginx
+  453  docker history nginx
+  456  docker pull nginx
+  457  docker run -d --restart always
+  458  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx1 nginx
+  459  ss -ntlp
+  460  sudo systemctl stop nginx
+  461  ss -ntlp
+  462  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx1 nginx
+  463  вщслук -зы
+  464  docker -ps
+  465  docker ps
+  466  docker ps -a
+  467  docker rm cb39e9dab39d
+  468  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx1 nginx
+  469  clear
+  470  ps afx
+  471  iptables -L nV
+  472  iptables -L -nV
+  473  iptables -L -NV
+  474  iptables -L -nV
+  475  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx1 nginx
+  476  iptables -L -nV
+  477  docker ps
+  478  docker ps -a
+  479  docker start nginx1
+  480  docker ps
+  481  iptables -L -nV
+  482  clear
+  483  ps afx
+  484  curl localhost
+  485  docker exec -ti nginx1 bash
+  486  curl localhost
+  487  clear
+  488  gocker logs nginx1
+  489  docker logs nginx1
+  490  clear
+  491  docker logs nginx1
+  492  cd docker/
+  493  apt install docker-compose
+  494  apt install yamllint
+  495  cd docker/
+  496  ls -al
+  497  cd /home/leo777/docker
+  498  ls
+  499  -ls
+  500  -l
+  501  clear
+  502  cd /home
+  503  ls -al
+  504  cd leo777/
+  505  ls -al
+  506  mkdir -p docker
+  507  ls -al
+  508  cd docker/
+  509  touch docker-compose.yml
+  510  ls -al
+  511  nano docker-compose.yml
+  512  cd
+  513  clear
+  514  docker ps
+  515  docker rm nginx1
+  516  docker rm 19373ec204cb
+  517  docker stop 19373ec204cb
+  518  docker rm 19373ec204cb
+  519  clear
+  520  cd /home/leo777/docker
+  521  ls -al
+  522  nano docker-compose.yml
+  523  docker-compose up -d
+  524  docker ps
+  525  docker-compose ps
+  526  curl localhost
+  527  exit
+  528  clear
+  529  docker ps
+  530  docker ps -qa
+  531  docker ps
+  532  docker ps -a
+  533  docker rm d7f6149bb53e
+  534  docker ps -a
+  535  docker ps
+  536  docker ps --all
+  537  docker kill
+  538  docker kill $(docker ps -q)
+  539  clear
+  540  docker ps -q
+  541  docker ps -a -q
+  542  docker images -q
+  543  clear
+  544  apt install docker.io
+  545  apt install docker.io docker-compose
+  546  clear
+  547  sudo usermod -aG docker leo777
+  548  id leo777
+  549  exit
+  550  vlear
+  551  clear
+  552  leo777 id
+  553  id
+  554  id leo777
+  555  clear
+  556  docker ps
+  557  docker info
+  558  clear
+  559  docker run hello-word
+  560  docker run hello-world
+  561  docker ps -a
+  562  clear
+  563  docker ps -a
+  564  docker rm 69df53735323
+  565  docker ps -a
+  566  docker rm hardcore_austin
+  567  docker ps -a
+  568  clear
+  569  docker images
+  570  docker run hello-world
+  571  docker run -it ubuntu bash
+  572  clear
+  573  docker ps
+  574  docker ps -a
+  575  docker images
+  576  sudo ss -tnlp
+  577  sudo systemctl
+  578  clear
+  579  sudo systemctl stop apache2.service nginx.service
+  580  sudo ss -tnlp
+  581  sudo docker search nginx
+  582  docker pull nginx
+  583  clear
+  584  docker run -d --restart always --name nginx11 -p 80:80 -v /var/www/html:/usr/share/nginx/html nginx
+  585  docker ps
+  586  ss -tnlp
+  587  curl localhost 80
+  588  clear
+  589  ip -a
+  590  ip -a -c
+  591  sudoip -a -c
+  592  clear
+  593  ip -a
+  594  ip
+  595  ip -s -a
+  596  clear
+  597  ip -A
+  598  ip -a
+  599  clear
+  600  hostname –I
+  601  ip -a
+  602  curl localhost 80
+  603  clear
+  604  ip address
+  605  ip a
+  606  ip a -с
+  607  ip a с
+  608  сдуфк
+  609  clear
+  610  ip a с
+  611  ip a -с
+  612  ip a -s -с
+  613  ip a
+  614  history
+
+ост на 42:00 минуте 
+
+
+Часть 2
+
+
+  619  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx12 nginx
+  620  docker ps
+  621  curl localhost 80
+  
+  625  curl localhost 80
+
+  627  clear
+
+
+  637  ip a
+  638  curl localhost 80
+  639  clear
+  640  docker ps
+  641  docker run
+  642  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx12 nginx
+  643  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx13 nginx
+  644  docker ps
+  645  docker restart
+
+  647  docker port
+  648  docker -H
+  649  docker --host list
+  650  clear
+  651  docker ps -a
+  652  docker rm ab84c0a73b9d
+  653  docker rm 49d0fd44ca92
+  654  docker rm 794cc404f2de
+  655  docker ps -a
+  656  docker rm 059a375427b9
+  657  docker rm 1898363df606
+  658  docker ps -a
+  659  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx_11 nginx
+  660  clear
+  661  docker ps
+  662  docker ps -a
+  663  docker run nginx_11
+  664  docker start nginx
+  665  docker search nginx
+  666  docker pull nginx
+  667  docker ps
+  668  docker ps -a
+  669  docker rm babd960ddda4
+  670  docker run -d --restart always -p 80:80 -v /var/www/html:/usr/share/nginx/html --name nginx22 nginx
+  671  docker ps
+  672  docker start
+  673  docker start nginx
+  674  docker start nginx22
+  675  clear
+  676  docker ps
+  677  docker images
+  678  docker rmi 904b8cb13b93
+  679  docker stop
+  680  docker ps -a
+  681  docker stop 6a14dbccd192
+  682  docker rmi 904b8cb13b93
+  683  docker ps -qa
+  684  docker ps
+  685  docker ps  -a
+  686  docker rm 6a14dbccd192
+  687  docker ps  -a
+  688  clear
+  689  docker images
+  690  docker rmi hello-world
+  691  docker rmi ubuntu
+  692  docker rmi nginx
+  693  clear
+  694  docker images
+  695  docker images -a
+  696  docker ps -a
+  697  clear
+  698  apt-get upgrade
+  699  apt autoremove
+  700  clear
+  701  apt-get upgrade
+  702  apt-get dist-upgrade
+  703  apt update
+  704  apt list --upgradable
+  705  sudo apt upgrade -y
+  706  clear
+  707  docker ps
+  708  docker ps -a
+  709  clear
+  710  sudo ss -tnlp
+  711  sudo systemctl stop apache2.service nginx.service
+  712  clear
+  713  sudo ss -tnlp
+  714  ip a
+  715  clear
+
+
+  718  curl localhost:80
+
+  721  docker images
+  722  docker search nginx
+  723  docker pull nginx
+  724  docker images
+  725  clear
+  726  docker run -d --restart always --name nginx33 -p 80:80 -v /var/www/html:/usr/share/nginx/html nginx
+  727  docker ps
+  728  curl localhost:80
+  729  clear
+  730  ip a
+  731  clear
+  732  docker ps
+  733  docker images
+  734  docker exec -it nginx33 bash
+  735  docker stop nginx11
+  736  docker stop nginx33
+  737  docker ps
+  738  docker ps -a
+  739  docker start nginx33
+  740* docker p
+  741  docker restart nginx33
+  742  docker ps -a
+  743  docker rm nginx33
+  744  docker rm -f nginx33
+  745  docker ps
+  746  docker ps -a
+  747  docker rmi nginx
+  748  clear
+  749  docker rmi nginx
+
+
+
+
+
+
+
+###### ВордПресс####
+
+
+
+  750  #апрект для работы с WorldPress
+  751  mkdir wordpress
+  752  cd wordpress/
+  753  mkdir nginx-conf
+  754  nano nginx-conf/nginx.conf
+  755  nano .env
+  756  git init
+  757  git status
+  758  git add .
+  759  git commit -m "первая верс"
+  760  git config --global user.name "leo777"
+  761  git commit -m "первая верс"
+  762  git status
+  763  clear
+  764  nano .gitignore
+  765  nano .dockerignore
+  767  htop
+  768  clear
+  769  ls
+  770  nano docker-compose.yml
+  771  docker-compose up
+  776  #Не запустился docker-compose == не знаю почему
+
+
+
+Часит 3
+
+ 780  docker-compose up
+  781  clear
+  782  ls -la
+  783  nano .dockerignore
+  784  nano .env
+  785  nano docker-compose.yml
+  786  ls -la
+  787  cd nginx-conf/
+  788  ls -la
+  789  nano nginx.conf
+  790  cd wordpress
+  791  cd /wordpress
+  792  cd wordpress/
+  793  ls -la
+  794  cd ..
+  795  ls -la
+  796  docker-compose up
+  797  nano docker-compose
+  798  nano docker-compose.yml
+  799  docker-compose up
+  800  cd wordpress
+  801  docker-compose up
+  802  #если понадобиться
+  803  #sudo apt purge mysql*
+  804  #и потом перезапуск
+  805  #docker-compose up
+  806  clear
+  807  docker-compose up
+  808  docker-compose up -d
+  809  curl localhost:80
+  810  curl localhost:8080
+  811  curl localhost:80
+  812  curl localhost 80
+  813  curl localhost:80
+  814  cd
+  815  curl localhost:80
+  816  cd nginx
+  817  ls -la
+  818  cd wordpress/
+  819  ls -la
+  820  cd nginx-conf/
+  821  ls -la
+  822  nano nginx.conf
+  823  ip a
+  824  #поменяем порт на 8081 в nano docker-compose
+  825  cd
+  826  cd wordpress/
+  827  ls -la
+  828  nano docker-compose.yml
+  829  curl localhost:80
+  830  curl localhost:8081
+  831  curl localhost:8080
+  832  curl localhost:80
+  833  clear
+  834  sudo iptables -L
+  835  sudo iptables -F
+  836  sudo iptables -L
+  837  iptables -P INPUT -j ACCEPT
+  838  iptables -P INPUT  ACCEPT
+  839  sudo iptables -L
+  840  iptables -t nat -L
+  841  clear
+  842  iptables -t nat -L
+  843  clear
+  844  docker-compose down
+  845  docker-compose up
+  846  clear
+  847  #попробуем пересоздать всю настройку
+  848  docker ps -a
+  849  sudo docker-compose up --force-recreate --no-deps webserver
+  850  #с вебсервером все в порядке
+  851  #слкд проверим database
+  852  sudo docker-compose up --force-recreate --no-deps db
+  853  nano docker-compose.yml
+  854  docker-compose up
+  855  docker-compose up -d
+  856  clear
+  857  docker-compose down
+  858  docker-compose up
+  859  sudo docker-compose up
+  860  #сначала удаляем все что было, потому что ошибка закралась в сборе образа
+  861  docker-compose rm -fsv
+  862  #удаляем ТОМА которые мы подключали
+  863  docker volume ls
+  864  docker volume rm wordpress_dbdata
+  865  docker volume rm wordpress_wordpress
+  866  docker volume ls
+  867  docker-compose up
+  868  docker-compose down
+  869  ip a -s
+  870  ip a -c
+  871  ip a c
+  872  clear
+  873  ip a
+  874  netstat
+  875  netstat -ntpua
+  876  clear
+  877  sudo iptables -L -n -v
+  878  clear
+  879  шз ф
+  880  ip a
+  881  сдуфк
+  882  clear
+  883  sudo apt install virtualbox-guest-x11
+  884  xrandr
+  885  clear
+  886  history
+
+
+

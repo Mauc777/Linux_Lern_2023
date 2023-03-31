@@ -1,0 +1,588 @@
+root@db:~# history
+    1  id
+    2  exit
+    3  apt update
+    4  cd /etc/apt/sources.list.d
+    5  sudo cat > vb.list
+    6  ll
+    7  mc
+    8  3
+    9  4
+   10  9
+   11  wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+   12  apt update
+   13  sudo apt update
+   14  apt-secure
+   15  cd /
+   16  cd /etc
+   17  nano crontab
+   18  cd cron.dayli/
+   19  cd cron.daily/
+   20  ll
+   21  cd ../cron.d
+   22  ll
+   23  nano e2scrub_all
+   24  crontab -l
+   25  exit
+   26  ip tubles -L nv
+   27  ip tables -L nv
+   28  iptables -L nv
+   29  clear
+   30  iptables -L -nv
+   31  iptables -A INPUT -p tcp --dport=22 -j ACCEPT
+   32  iptables -L -nv
+   33  clear
+   34  iptables -L -nv
+   35  iptables -A INPUT -p tcp --dport=88 -j ACCEPT
+   36  iptables -A INPUT -p tcp --dport=443 -j ACCEPT
+   37  iptables -L -nv
+   38  clear
+   39  iptables -A INPUT -i lo -j ACCEP
+   40  iptables -L -nv
+   41  clear
+   42  iptables -I -m state --state ESTABLISHED,RELATED -j ACCEPT
+   43  iptables -I INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+   44  iptables -L -nv
+   45  clear
+   46  iptables -L -nv
+   47  clear
+   48  iptables _A INPUT -p icmp -j ACCEPT
+   49  iptables -A INPUT -p icmp -j ACCEPT
+   50  clear
+   51  iptables -L -nv
+   52  clear
+   53  iptables -P INPUT DROP
+   54  iptables -L -nv
+   55  iptables-save > ip.rules
+   56  cat ip.rules
+   57  iptables-restore < ip.rules
+   58  cat ip.rules
+   59  iptables -L -nv
+   60  clear
+   61  iptables -L -nv
+   62  apt install iptables-persisitent netfilter-persistent
+   63  apt install iptables-persistent netfilter-persistent
+   64  clear
+   65  cd /etc/iptables
+   66  clear
+   67  ll
+   68  cat rules.v4
+   69  exit
+   70  clear
+   71  ss -ntlp
+   72  ss -ntlup
+   73  ss --tulpan
+   74  clear
+   75  ss -tulpan
+   76  sudo apt install net-tools
+   77  clear
+   78  netstat
+   79  clear
+   80  ss -tulpan
+   81  ifconfig
+   82  cd /etc/netplan
+   83  ls
+   84  cat 01-network-manager-all.yaml
+   85  clear
+   86  cp 00-installer-config.yaml 01-network-manager-all.yaml
+   87  ll
+   88  ls
+   89  rm 01-network-manager-all.yaml
+   90  ls
+   91  cp 00-installer-config.yaml 01-network-manager-all.yaml
+   92  sudocp 00-installer-config.yaml 01-network-manager-all.yaml
+   93  sudo cp 00-installer-config.yaml 01-network-manager-all.yaml
+   94  ls
+   95  cat > 01-network-manager-all.yaml
+   96  ls
+   97  nano 01-network-manager-all.yaml
+   98  netplan try
+   99  cp 00-installer-config-all.yaml
+  100  ls
+  101  cat > 00-installer-config-all.yaml
+  102  cat 00 > 00-installer-config-all.yaml
+  103  cat 00 >> 00-installer-config-all.yaml
+  104  сдуфк
+  105  clear
+  106  touch 00-installer-config-all.yaml
+  107  nano 00-installer-config-all.yaml
+  108  netplan try
+  109  nano 00-installer-config-all.yaml
+  110  netplan try
+  111  sudo apt install networkmanager
+  112  sudo apt search networkmanager
+  113  clear
+  114  sudo apt search network | grep manager
+  115  sudo apt install network-manager/jammy-updates
+  116  netplan try
+  117  clear
+  118  nano 00-installer-config-all.yaml
+  119  netplan try
+  120  nano 01-network-manager-all.yaml
+  121  nano 00-installer-config-all.yaml
+  122  netplan try
+  123  nano 00-installer-config-all.yaml
+  124  netplan try
+  125  nano 00-installer-config-all.yaml
+  126  netplan try
+  127  nano 00-installer-config-all.yaml
+  128  netplan try
+  129  clear
+  130  mv 01-network-manager-all.yaml  /home/db
+  131  netplan try
+  132  nano 00-installer-config-all.yaml
+  133  ls
+  134  mv 00-installer-config-all.yaml /home/db
+  135  netplan try
+  136  ls
+  137  cd
+  138  ls
+  139  ll -ls
+  140  cd /home/db
+  141  ls
+  142  nano 01-network-manager-all.yaml
+  143  mv 01-network-manager-all.yaml /etc/netplan
+  144  cd /etc/netplan
+  145  ls
+  146  netplan try
+  147  cd /home/db
+  148  ls
+  149  rm 00-installer-config-all.yaml
+  150  ll
+  151  clear
+  152  cd /etc/natplan
+  153  cd /etc/netplan
+  154  ls
+  155  netplan try
+  156  sudo search network | grep manager
+  157  sudo apt search network | grep manager
+  158  clear
+  159  mv 01-network-manager-all.yaml  /home/db
+  160  cd /home/db
+  161  ls
+  162  ll -ls
+  163  netplan try
+  164  nano 01-network-manager-all.yaml
+  165  netplan try
+  166  clear
+  167  cd /etc/netplan
+  168  ls
+  169  cd /etc/netplan
+  170  ls
+  171  touch 00-installer-config.yaml
+  172  nano 00-installer-config.yaml
+  173  netstat
+  174  clear
+  175  sudo ss
+  176  clear
+  177  sudo ip
+  178  ip -s
+  179  ip -s -c a
+  180  nano 00-installer-config.yaml
+  181  netplan try
+  182  nano 00-installer-config.yaml
+  183  netplan try
+  184  clear
+  185  cd /home/db
+  186  ll -ls
+  187  rm 01-network-manager-all.yaml
+  188  cd /etc/netplan
+  189  netplan try
+  190  netstat
+  191  clear
+  192  cd /etc/netplan
+  193  ls
+  194  nano 00-installer-config.yaml
+  195  netplan try
+  196  cd /etc/netplan
+  197  rm 00-installer-config.yaml
+  198  ll
+  199  exit
+  200  cd /etc/netplan
+  201  touch 00-netplan-file.yaml
+  202  ls
+  203  nano 00-netplan-file.yaml
+  204  netplan try
+  205  nano 00-netplan-file.yaml
+  206  netplan try
+  207  cp 02-dhcp-networkd.yaml
+  208  cp --help
+  209  cp 00-netplan-file.yaml 02-dhcp-networkd.yaml
+  210  nano 02-dhcp-networkd.yaml
+  211  netplan try
+  212  nano 00-netplan-file.yaml
+  213  netplan try
+  214  nano 00-netplan-file.yaml
+  215  netplan try
+  216  nano 00-netplan-file.yaml
+  217  netplan try
+  218  nano 00-netplan-file.yaml
+  219  netplan try
+  220  nano 02-dhcp-networkd.yaml
+  221  nano 00-netplan-file.yaml
+  222  netplan try
+  223  cd /etc/netplan
+  224  ll
+  225  nano 00-netplan-file.yaml
+  226  rm 00-netplan-file.yaml
+  227  ll
+  228  nano 02-dhcp-networkd.yaml
+  229  natplan try
+  230  netplan try
+  231  nano 02-dhcp-networkd.yaml
+  232  netplan try
+  233  nano 02-dhcp-networkd.yaml
+  234  netplan try
+  235  nano 02-dhcp-networkd.yaml
+  236  netplan try
+  237  cd /etc/netplan
+  238  ll
+  239  touch 00-netplan-file.yaml
+  240  nano 00-netplan-file.yaml
+  241  netplan try
+  242  cd /etc/netplan
+  243  ll
+  244  nano 02-dhcp-networkd.yaml
+  245  netplan try
+  246  nano 02-dhcp-networkd.yaml
+  247  netplan try
+  248  nano 02-dhcp-networkd.yaml
+  249  netplan try
+  250  nano 02-dhcp-networkd.yaml
+  251  netplan try
+  252  nano 02-dhcp-networkd.yaml
+  253  netplan try
+  254  nano 02-dhcp-networkd.yaml
+  255  netplan try
+  256  nano 02-dhcp-networkd.yaml
+  257  netplan try
+  258  nano 02-dhcp-networkd.yaml
+  259  netplan try
+  260  nano 02-dhcp-networkd.yaml
+  261  netplan try
+  262  nano 02-dhcp-networkd.yaml
+  263  netplan try
+  264  nano 02-dhcp-networkd.yaml
+  265  netplan try
+  266  nano 02-dhcp-networkd.yaml
+  267  nano 02-dhcp-networkd.yaml
+  268  netplan try
+  269  вв
+  270  clear
+  271  netplan apply
+  272  cp 00-netplan-file.yaml 03-static-networkd.yaml
+  273  ll
+  274  nano 03-static-networkd.yaml
+  275  ip a
+  276  nano 03-static-networkd.yaml
+  277  fg %1
+  278  netplan try
+  279  nano 03-static-networkd.yaml
+  280  netplan try
+  281  nano 03-static-networkd.yaml
+  282  netplan try
+  283  nano 03-static-networkd.yaml
+  284  netplan try
+  285  nano 03-static-networkd.yaml
+  286  ip a
+  287  cd /etc/netplan
+  288  ll
+  289  ip a
+  290  nano 03-static-networkd.yaml
+  291  netplan try
+  292  cd /etc/netplan
+  293  nano 03-static-networkd.yaml
+  294  netplan try
+  295  netplan apply
+  296  clear
+  297  ip a
+  298  nano 03-static-networkd.yaml
+  299  netplan try
+  300  ip a
+  301  exit
+  302  nano 03-static-networkd.yaml
+  303  учше
+  304  exit
+  305  nano 03-static-networkd.yaml
+  306  cd /etc/netplan
+  307  ll
+  308  nano 03-static-networkd.yaml
+  309  netplan try
+  310  nano 03-static-networkd.yaml
+  311  netplan try
+  312  nano 03-static-networkd.yaml
+  313  netplan apply
+  314  ip a
+  315  exit
+  316  cd /etc/netplan
+  317  ll
+  318  ip a
+  319  ll
+  320  nano 03
+  321  nano 03-static-networkd.yaml
+  322  cd /etc/netplan
+  323  ll
+  324  nano 03-static-networkd.yaml
+  325  netplan try
+  326  nano 03-static-networkd.yaml
+  327  netplan try
+  328  nano 03-static-networkd.yaml
+  329  netplan try
+  330  nano 03-static-networkd.yaml
+  331  netplan try
+  332  nano 03-static-networkd.yaml
+  333  netplan try
+  334  nano 03-static-networkd.yaml
+  335  netplan try
+  336  nano 03-static-networkd.yaml
+  337  netplan try
+  338  nano 03-static-networkd.yaml
+  339  netplan try
+  340  nano 03-static-networkd.yaml
+  341  netplan try
+  342  ip a
+  343  touch 04-static-networkd.yaml
+  344  nano 04-static-networkd.yaml
+  345  ip a
+  346  fd %1
+  347  fg %1
+  348  netplan try
+  349  ip a
+  350  nano 04-static-networkd.yaml
+  351  netplan try
+  352  ip a
+  353  ll
+  354  nano 00-netplan-file.yaml
+  355  nano 02-dhcp-networkd.yaml
+  356  netplan try
+  357  ll
+  358  nano 03-static-networkd.yaml
+  359  nano 04-static-networkd.yaml
+  360  netplan try
+  361  nano 03-static-networkd.yaml
+  362  netplan try
+  363  nano 03-static-networkd.yaml
+  364  netplan try
+  365  nano 03-static-networkd.yaml
+  366  netplan try
+  367  nano 03-static-networkd.yaml
+  368  netplan try
+  369  sudo netplan generate
+  370  nano 03-static-networkd.yaml
+  371  netplan try
+  372  ip a
+  373  clear
+  374  sudo netplan generate
+  375  ll
+  376  touch 05-probe.yaml
+  377  nano 05-probe.yaml
+  378  netplan try
+  379  nano 05-probe.yaml
+  380  netplan try
+  381  nano 05-probe.yaml
+  382  netplan try
+  383  ip a
+  384  nano 05-probe.yaml
+  385  netplan try
+  386  ip a
+  387  nano 05-probe.yaml
+  388  netplan try
+  389  ip a
+  390  nano 05-probe.yaml
+  391  netplan try
+  392  netplan apply
+  393  ip a
+  394  l
+  395  ll
+  396  nano 03-static-networkd.yaml
+  397  netplan apply
+  398  nano 03-static-networkd.yaml
+  399  netplan apply
+  400  nano 03-static-networkd.yaml
+  401  netplan apply
+  402  nano 03-static-networkd.yaml
+  403  netplan apply
+  404  nano 03-static-networkd.yaml
+  405  netplan try
+  406  clear
+  407  netplan try
+  408  nano 03-static-networkd.yaml
+  409  clear
+  410  netplan try
+  411  nano 05-probe.yaml
+  412  nano 04-static-networkd.yaml
+  413  nano 05-probe.yaml
+  414  nano 03-static-networkd.yaml
+  415  nano 00
+  416  nano 00-netplan-file.yaml
+  417  netplan try
+  418  nano 03-static-networkd.yaml
+  419  netplan try
+  420  netplan apply
+  421  cd /etc/netplan
+  422  nano 03-static-networkd.yaml
+  423  netplan try
+  424  ip a
+  425  nano 03-static-networkd.yaml
+  426  cd /etc/netpla
+  427  nano 03-static-networkd.yaml
+  428  ip a
+  429  netplan apply
+  430  nano 03-static-networkd.yaml
+  431  ll
+  432  nano 00-netplan-file.yaml
+  433  netplan apply
+  434  nano 02-dhcp-networkd.yaml
+  435  netplan apply
+  436  nano 03-static-networkd.yaml
+  437  nano 04-static-networkd.yaml
+  438  nano 05-probe.yaml
+  439  netplan apply
+  440  clear
+  441  ip a
+  442  cd /etc/netplan
+  443  cat *
+  444  ll
+  445  nano 02-dhcp-networkd.yaml
+  446  nano 03-static-networkd.yaml.save
+  447  rm 03-static-networkd.yaml.save
+  448  nano 04-static-networkd.yaml
+  449  nano 05
+  450  nano 05-probe.yaml
+  451  cat *
+  452  netplan apply
+  453  nano 03-static-networkd.yaml
+  454  netplan apply
+  455  ip a
+  456  nano 03-static-networkd.yaml
+  457  netplan apply
+  458  netplan try
+  459  netplan apply
+  460  ip a
+  461  cat *
+  462  netplan generate
+  463  ll
+  464  cat *
+  465  ip a
+  466  cd /etc/netplan
+  467  nano 00
+  468  nano 00-netplan-file.yaml
+  469  ip a
+  470  netplan try
+  471  ip a
+  472  netplan apply
+  473  nano 02-dhcp-networkd.yaml
+  474  netplan apply
+  475  ip r
+  476  ip addr add 10.0.2.121/255.255.255.0 broadcast 10.0.2.255 dev enp0s3
+  477  ip r
+  478  ip a
+  479  ip addr add 10.0.2.129/255.255.255.0 broadcast 10.0.2.255 dev enp0s3
+  480  ip a
+  481  ip r
+  482  ip route
+  483  ip a
+  484  ip r
+  485  ip route delete default via 10.0.2.2
+  486  ip r
+  487  ip route add default via 10.0.2.2 dev enp0s3 static proto
+  488  ip route add default via 10.0.2.2 dev enp0s3 proto
+  489  ip route add default via 10.0.2.2 dev enp0s3
+  490  ip r
+  491  сдуфк
+  492  clear
+  493  ping
+  494  ping ya.ru
+  495  clear
+  496  host
+  497  dig -A ya.ru
+  498  dig A ya.ru
+  499  clear
+  500  dig A ya.ru
+  501  dig A yandex.ru
+  502  clear
+  503  dig A yandex.ru
+  504  tracerout yandex.ru
+  505  traceroute yandex.ru
+  506  sudo apt install traceroute
+  507  clear
+  508  traceroute yandex.ru
+  509  ping yandex.ru
+  510  clear
+  511  iptables -L
+  512  iptables -A -i lo -j ACCEPT
+  513  iptables -A INPUT -i lo -j ACCEPT
+  514  iptables -L
+  515  iptables -A INPUT -p icmp ACCEPT
+  516  iptables -A INPUT -p icmp -j ACCEPT
+  517  iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+  518  iptables -L
+  519  clear
+  520  iptables -L
+  521  iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+  522  iptables -L
+  523  iptables -A INPUT -p tcp --dport=80 -j ACCEPT
+  524  iptables -L
+  525  iptables -A INPUT -p tcp --dport=443 -j ACCEPT
+  526  iptables -L
+  527  clear
+  528  iptables -P INPUT DROP
+  529  iptables -L
+  530  iptables -L -nv --line-numbers
+  531  clear
+  532  iptables -L -nv --line-numbers
+  533  iptables -t nat -L -nv --line-numbers
+  534  clear
+  535  iptables -t nat -L -nv --line-numbers
+  536  iptables -t filter -L -nv --line-numbers
+  537  clear
+  538  iptables -t nat -L -nv --line-numbers
+  539  iptables -t row -L -nv --line-numbers
+  540  clear
+  541  iptables -t row -L -nv --line-numbers
+  542  iptables -t mangle -L -nv --line-numbers
+  543  iptables -L -nv --line-numbers
+  544  clear
+  545  iptables -L -nv --line-numbers
+  546  ip a
+  547  ping  10.0.2.15/24
+  548  ping  10.0.2.121
+  549  clear
+  550  iptables -D INPUT 3
+  551  ping  10.0.2.121
+  552  ping  10.0.2.15
+  553  iptables -L -nv --line-numbers
+  554  clear
+  555  iptables -L -nv --line-numbers
+  556  ip a
+  557  ping  10.0.2.129
+  558  ping  10.0.2.15
+  559*
+  560  clear
+  561  iptables -L -nv --line-numbers
+  562  ping 192.168.1.198
+  563  clear
+  564  iptables -A INPUT -p icmp -j ACCEPT
+  565  iptables -L -nv --line-numbers
+  566  ping 192.168.1.198
+  567  clear
+  568  iptables -D INPUT 7
+  569  iptables -A INPUT -p icmp -j ACCEPT
+  570  iptables -L -nv --line-numbers
+  571  ip r
+  572  clear
+  573  iptables -L -nv --line-numbers
+  574  iptables -D INPUT -s 209.175.153.23 -j DROP
+  575  iptables -L -nv --line-numbers
+  576  iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+  577  iptables -L -nv --line-numbers
+  578  clear
+  579  iptables -L -nv --line-numbers
+  580  clear
+  581  iptables -L -nv --line-numbers -t nat
+  582  iptables-save > ./iptables.rules
+  583  sudo apt install iptables-persistent netfilter-persistent
+  584  clear
+  585  netfilter-persistent save
+  586  netfilter-persistent start
+  587  history
